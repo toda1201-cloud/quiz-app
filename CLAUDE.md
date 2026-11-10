@@ -12,6 +12,10 @@
 - **内容:** 一般常識クイズアプリ。ユーザーが問題に回答し、正誤判定とスコアを確認できる Web アプリ。
 - **技術スタック:** HTML / CSS / JavaScript（素の Vanilla JS。フレームワーク・ビルドツールは使用しない）
 
+## GitHubリポジトリ
+
+https://github.com/toda1201-cloud/quiz-app
+
 ## ディレクトリ構成
 
 ```
@@ -19,6 +23,7 @@ quiz-app/
 ├── index.html   # エントリーポイント（スタート・出題・結果の3画面）
 ├── style.css    # スタイル
 ├── script.js    # 問題データ（先頭の questions 配列）とクイズ進行ロジック
+├── .gitignore   # .claude/ をGit管理から除外
 └── CLAUDE.md
 ```
 
