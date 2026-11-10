@@ -23,7 +23,7 @@ quiz-app/
 ├── index.html   # エントリーポイント（スタート・出題・結果の3画面）
 ├── style.css    # スタイル
 ├── script.js    # 問題データ（先頭の questions 配列）とクイズ進行ロジック
-├── .gitignore   # .claude/ をGit管理から除外
+├── .gitignore   # .claude/・node_modules/・.env をGit管理から除外
 └── CLAUDE.md
 ```
 
